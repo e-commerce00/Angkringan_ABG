@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web E-Commerce</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"></script>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <h1>Angkringan ABG</h1>
+        </div>
+        <ul class="menu">
+            <li><a href="" class="active">Home</a></li>
+            <li><a href="">Makanan</a></li>
+            <li><a href="">Minuman</a></li>
+            <li><a href="">Account</a></li>
+            <li><a href=""><i class="fas fa-shopping-cart"></i></a></li>
+        </ul>
+
+        <!--for responsive button-->
+        <div class="menu-btn">
+            <i class="fa fa-bars"></i>
+        </div>
+    </nav>
+
+    <section class="content">
+        <h1>Angkringan ABG</h1>
+        <p>Menyediakan berbagai
+            <br>Makanan dan minuman 
+        </p>
+        <button>Beli sekarang</button>
+    </section>
+
+    <h1 class="pheading">Menu Makanan & Minuman</h1>
+
+    <section class="sec">
+        <div class="products">
+
+            <!--card start-->
+            <div class="card">
+                <div class="img"><img src="img/1.jpg" alt=""></div>
+                <div class="desc">Minuman</div>
+                <div class="title">Boba</div>
+                <div class="box">
+                    <div class="price">Rp 25.000</div>
+                    <button class="btn">Beli</button>
+                </div>
+            </div>
+            <!--card end-->
+
+            <!--card start-->
+            <div class="card">
+                <div class="img"><img src="img/2.jpg" alt=""></div>
+                <div class="desc">Minuman</div>
+                <div class="title">Matcha Latte</div>
+                <div class="box">
+                    <div class="price">Rp 20.000</div>
+                    <button class="btn">Beli</button>
+                </div>
+            </div>
+            <!--card end-->
+
+            <!--card start-->
+            <div class="card">
+                <div class="img"><img src="img/3.jpg" alt=""></div>
+                <div class="desc">Minuman</div>
+                <div class="title">Brown Sugar</div>
+                <div class="box">
+                    <div class="price">Rp 25.000</div>
+                    <button class="btn">Beli</button>
+                </div>
+            </div>
+            <!--card end-->
+
+            <!--card start-->
+            <div class="card">
+                <div class="img"><img src="img/4.jpg" alt=""></div>
+                <div class="desc">Minuman</div>
+                <div class="title">Ice Blended</div>
+                <div class="box">
+                    <div class="price">Rp 25.000</div>
+                    <button class="btn">Beli</button>
+                </div>
+            </div>
+            <!--card end-->
+
+            <!--card start-->
+            <div class="card">
+                <div class="img"><img src="img/5.jpg" alt=""></div>
+                <div class="desc">Makanan</div>
+                <div class="title">Nasi Goreng</div>
+                <div class="box">
+                    <div class="price">Rp15.000</div>
+                    <button class="btn">Beli</button>
+                </div>
+            </div>
+            <!--card end-->
+
+            <!--card start-->
+            <div class="card">
+                <div class="img"><img src="img/6.jpg" alt=""></div>
+                <div class="desc">Makanan</div>
+                <div class="title">Ayam Geprek</div>
+                <div class="box">
+                    <div class="price">Rp 15.000</div>
+                    <button class="btn">Beli</button>
+                </div>
+            </div>
+            <!--card end-->
+
+            <!--card start-->
+            <div class="card">
+                <div class="img"><img src="img/7.jpg" alt=""></div>
+                <div class="desc">Makanan</div>
+                <div class="title">Kebab Jumbo</div>
+                <div class="box">
+                    <div class="price">Rp 15.000</div>
+                    <button class="btn">Beli</button>
+                </div>
+            </div>
+            <!--card end-->
+
+            <!--card start-->
+            <div class="card">
+                <div class="img"><img src="img/8.jpg" alt=""></div>
+                <div class="desc">Makanan</div>
+                <div class="title">Burger</div>
+                <div class="box">
+                    <div class="price">Rp 20.000</div>
+                    <button class="btn">Beli</button>
+                </div>
+            </div>
+
+            <!--card start-->
+            <div class="card">
+                <div class="img"><img src="img/9.jpg" alt=""></div>
+                <div class="desc">Makanan</div>
+                <div class="title">Ramen</div>
+                <div class="box">
+                    <div class="price">Rp 30.000</div>
+                    <button class="btn">Beli</button>
+                </div>
+            </div>
+            <!--card end-->
+
+        </div>
+    </section>
+
+    <footer>
+        <p>Copyrights at <a href="">Angkringan ABG</a></p>
+    </footer>
+
+    <!--jquery-->
+
+    <script>
+        $(".menu-btn").click(function() {
+            $(".navbar .menu").toggleClass("active");
+            $(".menu-btn i").toggleClass("active");
+        });
+    </script>
+
+</body>
+
+</html>
